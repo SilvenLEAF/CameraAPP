@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&family=Dosis:wght@200;300;400;500;600;700;800&display=swap&family=Ranchers&display=swap');
+
+
+
+/* --------------------------------------
+.      font-family: 'Aladin', cursive;
+.      font-family: 'Roboto', sans-serif;
+.      font-family: Dosis;
+.      font-family: 'Ranchers', cursive;
+-------------------------------------- */
+
+
+@import './variables';
+
+
+
+/* ------------------------------------
+ (Navbar + Footer) Color
+ Navbar Font
+ Sticky Footer
+ Hamburger
+ Back Top Button
+ Form Color
+------------------------------------ */
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: sans-serif;
+  font-size: 14px;  
+
+  background-color: $bodyBG;
+
+}
+
+
+
+// -------------Nav and  Footer Color
+.nav.nav-wrapper, #myFooter{
+  background-color: $themeColor;  
+}
+
+
+.nav.nav-wrapper {
+  font-family: 'Aladin', cursive;
+
+  .brand-logo{
+    font-size: 270%;
+  }
+  li a {
+    font-size: 150%;
+  }
+}
+nav ul li:hover {
+  background-color: rgba($color: $themeColor, $alpha: 0.3);
+}
+
+ul.sidenav {
+  // background-color: rgba($color: $bodyBG, $alpha: 1);
+  background-color: $bodyBG;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------
+.           STICKY FOOTER
+---------------------------------- */
+#myWrapper{
+  min-height: 100vh;
+  margin-bottom: $wrapperBottomMargin;
+
+  @include mQ(800px){
+    min-height: 0;
+    margin-bottom: 60px;
+   
+
+    overflow: auto;
+  }
+}
+
+#myWrapper::after, #myFooter{
+  content: "";
+  display: block;
+
+  height: $footerHeight;
+  overflow: hidden;
+
+
+  @include mQ(800px){
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------
+.              HAMBURGER
+------------------------------------ */
+.sidenav-trigger{
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+.sidenav-trigger > div {
+  width: 30px;    
+  height: 3px;
+  margin: 7px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------
+.            BACK TO TOP BUTTON
+------------------------------------ */
+#myBackToTopButton {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $themeColor;
+
+  display: none;
+  // display: flex;  it will become flex on scroll
+  justify-content: center;
+  align-items: center;
+
+  border: 7px solid $bodyBG;
+  color: #fff;
+  font-size: 200%;
+
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+
+
+  @include mQ(800px){
+    width: 60px;
+    height: 60px;
+
+    font-size: 190%;
+
+    bottom: 70px;
+    right: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------
+.    FORM INPUT INTO PRIMARY COLOR
+------------------------------------ */
+.input-field input[type=text]:focus + label, .input-field .materialize-textarea:focus + label {
+  color: $themeColor !important;
+}
+
+.input-field input[type=text]:focus, .input-field .materialize-textarea:focus {
+  border-bottom: 1px solid $themeColor !important;
+  box-shadow: 0 1px 0 0 $themeColor !important;
+}
+
+.prefix.active{
+  color: $themeColor !important;
+}
+
+
+
+
+.tabs .tab a, .tabs .tab a:focus, .tabs .tab a:focus {
+  background: $bodyBG !important;
+  color: $themeColor !important;
+}
+
+
+.tabs .tab a.active, .tabs .tab a:focus, .tabs .tab a:focus.active {
+  background: $themeColor !important;
+  color: #fff !important;
+}
+
+.tabs .indicator {
+   background-color: #000 !important;
+}
