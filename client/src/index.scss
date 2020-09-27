@@ -54,7 +54,7 @@ body{
   font-family: 'Aladin', cursive;
 
   .brand-logo{
-    font-size: 270%;
+    font-size: 230%;
   }
   li a {
     font-size: 150%;
@@ -187,12 +187,17 @@ ul.sidenav {
 .input-field input[type=text]:focus + label, .input-field .materialize-textarea:focus + label {
   color: $themeColor !important;
 }
-
 .input-field input[type=text]:focus, .input-field .materialize-textarea:focus {
   border-bottom: 1px solid $themeColor !important;
   box-shadow: 0 1px 0 0 $themeColor !important;
 }
 
+
+
+
+
+
+//---------------------ICON
 .prefix.active{
   color: $themeColor !important;
 }
@@ -200,17 +205,41 @@ ul.sidenav {
 
 
 
+
+
+
+//---------------------TABS
 .tabs .tab a, .tabs .tab a:focus, .tabs .tab a:focus {
   background: $bodyBG !important;
   color: $themeColor !important;
 }
-
-
 .tabs .tab a.active, .tabs .tab a:focus, .tabs .tab a:focus.active {
   background: $themeColor !important;
   color: #fff !important;
 }
-
 .tabs .indicator {
    background-color: #000 !important;
+}
+
+
+
+
+
+
+//---------------------RADIO
+[type="radio"]:checked + span:after, 
+[type="radio"].with-gap:checked + span:before, 
+[type="radio"].with-gap:checked + span:after {
+ 
+  border: 2px solid $themeColor !important;
+ 
+}
+ 
+ 
+ 
+[type="radio"]:checked + span:after, 
+[type="radio"].with-gap:checked + span:after {
+ 
+  background-color: $themeColor !important;
+ 
 }
