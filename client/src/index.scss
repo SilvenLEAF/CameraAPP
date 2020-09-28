@@ -44,6 +44,31 @@ body{
 
 
 
+.pageTitle {  
+  margin: 25px 0px;
+
+  font-size: 270%;
+  font-weight: 800;
+  font-family: Dosis, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // -------------Nav and  Footer Color
 .nav.nav-wrapper, #myFooter{
   background-color: $themeColor;  
@@ -157,6 +182,7 @@ ul.sidenav {
   position: fixed;
   bottom: 40px;
   right: 40px;
+  z-index: 1000;
 
 
   @include mQ(800px){
@@ -242,4 +268,22 @@ ul.sidenav {
  
   background-color: $themeColor !important;
  
+}
+
+
+
+.btn {
+  background-color: $themeColor !important;
+  &:visited {
+    background-color: $themeColor !important;
+  }
+  &:active {
+    background-color: $themeColor !important;
+  }
+  &:focus {
+    background-color: $themeColor !important;
+  }
+  &:hover {
+    background-color: darken($themeColor, 10) !important;
+  }
 }

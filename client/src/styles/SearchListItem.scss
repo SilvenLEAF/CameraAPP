@@ -1,0 +1,32 @@
+@import '../variables';
+
+.mySearchListItem {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+
+  box-shadow: $awesomeShadow;
+  background-color: #fff;
+  color: #000;
+
+
+  .myJobTitle {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-family: Aladin, sans-serif;
+    text-align: center;
+
+    font-size: 150%;
+  }
+
+  p {
+    margin: 0;
+    font-size: 90%;
+    font-family: Roboto, sans-serif;
+  }
+
+
+  
+
+}

@@ -24,10 +24,6 @@
   button {
     margin: 0;
     margin-top: 20px;
-    background-color: $themeColor;
-    &:hover {
-      background-color: darken($themeColor, 10);
-    }
   }
 
   #filterByFullTimeJobLabel {

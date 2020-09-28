@@ -7,6 +7,7 @@ import React, { useState, useEffect, useContext } from 'react'
 
 
 import { SearchContext } from '../../contexts/SearchContext';
+import { useHistory } from 'react-router-dom';
 
 
 
@@ -19,7 +20,7 @@ function Search() {
 
 
   const { setSearchResults } = useContext(SearchContext)
-
+  const history = useHistory();
 
 
   const [language, setLanguage] = useState('');
@@ -53,6 +54,9 @@ function Search() {
       
       trueRadio.checked = false;
       falseRadio.checked = true;
+
+      console.log('Hi there history')
+      history.push('/searchResults')
     }
 
 
