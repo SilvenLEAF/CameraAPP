@@ -29,7 +29,7 @@ function Navbar() {
         <ul className="sidenav" id="mobilenav">
           <li><NavLink to="/" className="sidenav-close" ><i className="fa fa-home"></i>Home</NavLink></li>
           <li><NavLink to="/search" className="sidenav-close" ><i className="fa fa-search"></i>Search</NavLink></li>
-          <li><NavLink to="/" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</NavLink></li>
+          <li><NavLink to="/allJobs" className="sidenav-close" ><i className="fa fa-globe"></i>All Jobs</NavLink></li>
           <li><a target="_blank" rel="noopener noreferrer" href="https://silvenleaf.github.io" className="sidenav-close" ><i className="fa fa-info"></i>About Me</a></li>
         </ul>
 
@@ -40,7 +40,7 @@ function Navbar() {
         <ul className="right hide-on-med-and-down">
           <li><NavLink to="/" >Home</NavLink></li>
           <li><NavLink to="/search" >Search</NavLink></li>           
-          <li><NavLink to="/">Contact Me</NavLink></li>           
+          <li><NavLink to="/All Jobs">All Jobs</NavLink></li>           
           <li><a target="_blank" rel="noopener noreferrer" href="https://silvenleaf.github.io" >About Me</a></li>
         </ul>
 

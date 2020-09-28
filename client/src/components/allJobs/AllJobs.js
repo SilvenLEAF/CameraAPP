@@ -5,6 +5,8 @@ import '../../styles/Search.scss';
 import React, { useContext, useEffect, useState } from 'react'
 import { usePaginatedQuery } from 'react-query'
 
+
+import { SearchContext } from '../../contexts/SearchContext';
 import SearchListItem from '../search/SearchListItem';
 
 
@@ -13,7 +15,7 @@ import SearchListItem from '../search/SearchListItem';
 const getAllJobs = async (page)=>{
   let language = '';  
   let location = '';
-  // const allJobsRes = await fetch(`https://github-jobs-proxy.appspot.com/positions`)
+
   const allJobsRes = await fetch(`https://github-jobs-proxy.appspot.com/positions?description=${ language }&location=${ location }&page=${ page }`)
   const allJobsData = await allJobsRes.json();
 
@@ -32,10 +34,12 @@ function AllJobs() {
   }, [])
 
 
+
+  const { setSearchResults } = useContext(SearchContext)
   const [page, setPage] = useState(0)
 
   const { resolvedData, latestData, status } = usePaginatedQuery([page], getAllJobs)
-
+  if(resolvedData) setSearchResults(resolvedData);
 
 
 

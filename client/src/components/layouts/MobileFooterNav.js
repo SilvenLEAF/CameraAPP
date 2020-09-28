@@ -41,7 +41,7 @@ function MobileFooterNav() {
       <div>
         <div className="myFooterIcons">
           <Link to="/allJobs">
-          <i className="fa fa-user-secret"></i> All Jobs
+          <i className="fa fa-globe"></i> All Jobs
           </Link>
         </div>          
       </div>

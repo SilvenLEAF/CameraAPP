@@ -1,0 +1,40 @@
+#myFullDetailsPage {
+
+
+  .myTimeStamp {
+    margin: 0;
+    margin-top: 20px;
+    font-family: Aladin, sans-serif;
+  }
+
+
+  .myJobTitle {
+    margin: 0;
+    font-family: Aladin, sans-serif;    
+  }
+
+  .myJobCompanyLogo {
+    margin: 0;
+    max-width: 70px;
+    max-height: 70px;
+    float: right;
+  }
+  
+  
+  .myJobSectionTitle {
+    font-weight: 600;
+    
+    hr{
+      margin: 0;
+      border: 2px solid #000;
+    }
+  }
+  
+  .amyJobSectionTitle {
+    margin: 0;
+  }
+
+  p {    
+    text-indent: 50px;
+  }
+}
