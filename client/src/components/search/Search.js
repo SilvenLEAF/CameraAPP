@@ -34,7 +34,8 @@ function Search() {
       console.log({ language, location, fullTime });
       
 
-      const jobRes = await fetch(`https://jobs.github.com/positions.json?description=${ language }&full_time=${ fullTime }&location=${ location }`)
+      // const jobRes = await fetch(`https://jobs.github.com/positions.json?description=${ language }&full_time=${ fullTime }&location=${ location }`)
+      const jobRes = await fetch(`https://github-jobs-proxy.appspot.com/positions?description=${ language }&full_time=${ fullTime }&location=${ location }`)
       const jobData = await jobRes.json();
 
       console.log(jobData);
