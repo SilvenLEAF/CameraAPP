@@ -22,6 +22,7 @@ import Home from './components/home/Home'
 import Search from './components/search/Search';
 import SearchList from './components/search/SearchList';
 import FullDetailsPage from './components/details/FullDetailsPage';
+import AllJobs from './components/allJobs/AllJobs';
 
 
 
@@ -45,6 +46,8 @@ function App() {
               <Route path="/search" component={Search} />
               <Route path="/searchResults" component={SearchList} />
               <Route path="/fullDetails/:index" component={FullDetailsPage} />
+              
+              <Route path="/allJobs" component={AllJobs} />
             </Switch>
             
           </div>
