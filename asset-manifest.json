@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/JobSearchAPP/static/css/main.6862bc9c.chunk.css",
-    "main.js": "/JobSearchAPP/static/js/main.b3504c44.chunk.js",
-    "main.js.map": "/JobSearchAPP/static/js/main.b3504c44.chunk.js.map",
+    "main.css": "/JobSearchAPP/static/css/main.8e439842.chunk.css",
+    "main.js": "/JobSearchAPP/static/js/main.8d81d5e6.chunk.js",
+    "main.js.map": "/JobSearchAPP/static/js/main.8d81d5e6.chunk.js.map",
     "runtime-main.js": "/JobSearchAPP/static/js/runtime-main.095906ee.js",
     "runtime-main.js.map": "/JobSearchAPP/static/js/runtime-main.095906ee.js.map",
     "static/css/2.9a9a1f6f.chunk.css": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.9b4dbfaa.chunk.js": "/JobSearchAPP/static/js/2.9b4dbfaa.chunk.js",
-    "static/js/2.9b4dbfaa.chunk.js.map": "/JobSearchAPP/static/js/2.9b4dbfaa.chunk.js.map",
+    "static/js/2.84ac579a.chunk.js": "/JobSearchAPP/static/js/2.84ac579a.chunk.js",
+    "static/js/2.84ac579a.chunk.js.map": "/JobSearchAPP/static/js/2.84ac579a.chunk.js.map",
     "index.html": "/JobSearchAPP/index.html",
-    "precache-manifest.752c2f447ed4c199554dd6e967dec0a9.js": "/JobSearchAPP/precache-manifest.752c2f447ed4c199554dd6e967dec0a9.js",
+    "precache-manifest.f177069c37d550c43fbffd0d77d7500a.js": "/JobSearchAPP/precache-manifest.f177069c37d550c43fbffd0d77d7500a.js",
     "service-worker.js": "/JobSearchAPP/service-worker.js",
     "static/css/2.9a9a1f6f.chunk.css.map": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css.map",
-    "static/css/main.6862bc9c.chunk.css.map": "/JobSearchAPP/static/css/main.6862bc9c.chunk.css.map",
-    "static/js/2.9b4dbfaa.chunk.js.LICENSE.txt": "/JobSearchAPP/static/js/2.9b4dbfaa.chunk.js.LICENSE.txt"
+    "static/css/main.8e439842.chunk.css.map": "/JobSearchAPP/static/css/main.8e439842.chunk.css.map",
+    "static/js/2.84ac579a.chunk.js.LICENSE.txt": "/JobSearchAPP/static/js/2.84ac579a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.095906ee.js",
     "static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.9b4dbfaa.chunk.js",
-    "static/css/main.6862bc9c.chunk.css",
-    "static/js/main.b3504c44.chunk.js"
+    "static/js/2.84ac579a.chunk.js",
+    "static/css/main.8e439842.chunk.css",
+    "static/js/main.8d81d5e6.chunk.js"
   ]
 }
