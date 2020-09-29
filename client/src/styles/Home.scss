@@ -1,7 +1,56 @@
 @import '../variables';
 
 
+#myLandingIcon {
+  margin: 29px auto;
+  float: right;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url("../images/landingIcon.jpg") center/cover;
+
+
+  @include mQ(800px){
+    float: none;
+  }
+
+}
+
+
+
+.myLandingContentHolder {
+  margin: 0;
+  margin-top: 100px;
+  position: relative;
+  top: 70px;
+
+  @include mQ(800px){
+    margin-top: 0;
+    top: 0;
+  }
+}
+
+
+// #myLandingTitle {
+//   margin: 0;
+//   margin-top: 100px;
+
+//   @include mQ(800px){
+//     margin-top: 0;
+//   }
+// }
+
+
+
+
 .myLandingDescription {
   margin: 0;
+  font-size: 120%;
+}
+
+
+.myWithLoveFromSilvenLEAF {
+  margin: 20px 0;
+  font-family: Aladin, sans-serif;
   font-size: 150%;
 }

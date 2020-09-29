@@ -40,7 +40,7 @@ function AllJobs() {
 
   const { resolvedData, latestData, status } = usePaginatedQuery([page], getAllJobs)
   if(resolvedData) setSearchResults(resolvedData);
-
+  
 
 
   
@@ -53,6 +53,13 @@ function AllJobs() {
       <div className="pageTitle">All Jobs</div>
     
       <div className="mySearchListItemsHolder">
+        {
+         !resolvedData && (
+           <h1 className="red-text myLoading">
+             Loading...
+           </h1>
+         ) 
+        }
         {
           resolvedData && resolvedData.map(((item, index)=>{
             return <SearchListItem key={ index } index={ index } time={ item.created_at } title={ item.title } type={ item.type } company={ item.company } location={ item.location } />

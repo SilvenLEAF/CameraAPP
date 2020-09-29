@@ -17,12 +17,19 @@ function Home() {
   return (
     <div className="container">
 
-      <h2 className="pageTitle myLandingTitle">
-        Looking for jobs?
-      </h2>
-      
-      <div className="myLandingDescription">
-        Now Job hunt MADE SUPER EASY! Find your DREAM JOBS on your fingertip. Yay!
+      <div id="myLandingIcon"></div>
+      <div className="myLandingContentHolder">
+        <h2 id="myLandingTitle" className="pageTitle">
+          Looking for jobs?
+        </h2>
+        
+        <div className="myLandingDescription">
+          Now Job hunt MADE SUPER EASY! Find your DREAM JOBS on your fingertip. Yay!
+        </div>
+
+        <h6 className="red-text myWithLoveFromSilvenLEAF" >
+          --------With LOVE from SilvenLEAF
+        </h6>
       </div>
       
 

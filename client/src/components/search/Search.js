@@ -23,7 +23,7 @@ function Search() {
   const history = useHistory();
 
 
-  const [language, setLanguage] = useState('');
+  const [description, setDescription] = useState('');
   const [location, setLocation] = useState('');
   const [fullTime, setFullTime] = useState(false);
   
@@ -31,11 +31,10 @@ function Search() {
     const handleSubmit = async (e)=>{
       e.preventDefault();
 
-      console.log({ language, location, fullTime });
+      console.log({ description, location, fullTime });
       
 
-      // const jobRes = await fetch(`https://jobs.github.com/positions.json?description=${ language }&full_time=${ fullTime }&location=${ location }`)
-      const jobRes = await fetch(`https://github-jobs-proxy.appspot.com/positions?description=${ language }&location=${ language }`)
+      const jobRes = await fetch(`https://github-jobs-proxy.appspot.com/positions?description=${ description }&location=${ location }`)
       const jobData = await jobRes.json();
 
       console.log(jobData);
@@ -45,7 +44,7 @@ function Search() {
 
 
 
-      setLanguage('');
+      setDescription('');
       setLocation('');
       setFullTime(false);
 
@@ -69,13 +68,13 @@ function Search() {
         <h2><i className="fa fa-search"></i> Search</h2>
        
         <div className="input-field">
-          <input type="text" value={ language } onChange={ e => setLanguage(e.target.value) } />
-          <label htmlFor="language">Programming Language</label>
+          <input type="text" value={ description } onChange={ e => setDescription(e.target.value) } />
+          <label htmlFor="description">Description <span className="red-text">(optional)</span> </label>
         </div>
 
         <div className="input-field">
           <input id="myFullTimeJobFilterFalseRadio" type="text" value={ location } onChange={ e => setLocation(e.target.value) } />
-          <label htmlFor="location">Location</label>
+          <label htmlFor="location">Location <span className="red-text">(optional)</span></label>
         </div>
 
        
