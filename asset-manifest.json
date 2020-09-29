@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/JobSearchAPP/static/css/main.602b5193.chunk.css",
-    "main.js": "/JobSearchAPP/static/js/main.a7c6f5d0.chunk.js",
-    "main.js.map": "/JobSearchAPP/static/js/main.a7c6f5d0.chunk.js.map",
+    "main.css": "/JobSearchAPP/static/css/main.d27f7f17.chunk.css",
+    "main.js": "/JobSearchAPP/static/js/main.9fe14658.chunk.js",
+    "main.js.map": "/JobSearchAPP/static/js/main.9fe14658.chunk.js.map",
     "runtime-main.js": "/JobSearchAPP/static/js/runtime-main.095906ee.js",
     "runtime-main.js.map": "/JobSearchAPP/static/js/runtime-main.095906ee.js.map",
     "static/css/2.9a9a1f6f.chunk.css": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css",
     "static/js/2.04e520f6.chunk.js": "/JobSearchAPP/static/js/2.04e520f6.chunk.js",
     "static/js/2.04e520f6.chunk.js.map": "/JobSearchAPP/static/js/2.04e520f6.chunk.js.map",
     "index.html": "/JobSearchAPP/index.html",
-    "precache-manifest.561a8ccef5a3aca4dff04d6911b55a0c.js": "/JobSearchAPP/precache-manifest.561a8ccef5a3aca4dff04d6911b55a0c.js",
+    "precache-manifest.3a692228bbea1febe2e132f6c1bc24ff.js": "/JobSearchAPP/precache-manifest.3a692228bbea1febe2e132f6c1bc24ff.js",
     "service-worker.js": "/JobSearchAPP/service-worker.js",
     "static/css/2.9a9a1f6f.chunk.css.map": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css.map",
-    "static/css/main.602b5193.chunk.css.map": "/JobSearchAPP/static/css/main.602b5193.chunk.css.map",
-    "static/js/2.04e520f6.chunk.js.LICENSE.txt": "/JobSearchAPP/static/js/2.04e520f6.chunk.js.LICENSE.txt"
+    "static/css/main.d27f7f17.chunk.css.map": "/JobSearchAPP/static/css/main.d27f7f17.chunk.css.map",
+    "static/js/2.04e520f6.chunk.js.LICENSE.txt": "/JobSearchAPP/static/js/2.04e520f6.chunk.js.LICENSE.txt",
+    "static/media/Home.scss": "/JobSearchAPP/static/media/landingIcon.d6685ae3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.095906ee.js",
     "static/css/2.9a9a1f6f.chunk.css",
     "static/js/2.04e520f6.chunk.js",
-    "static/css/main.602b5193.chunk.css",
-    "static/js/main.a7c6f5d0.chunk.js"
+    "static/css/main.d27f7f17.chunk.css",
+    "static/js/main.9fe14658.chunk.js"
   ]
 }

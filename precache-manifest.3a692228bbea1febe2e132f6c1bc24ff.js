@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "529d39039979df5fcd39e27ab94b2757",
+    "revision": "bb595bb982945741f1caf0720e2cb843",
     "url": "/JobSearchAPP/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css"
   },
   {
-    "revision": "e41a999914f428b204d3",
-    "url": "/JobSearchAPP/static/css/main.602b5193.chunk.css"
+    "revision": "7970531cb11a38705e1d",
+    "url": "/JobSearchAPP/static/css/main.d27f7f17.chunk.css"
   },
   {
     "revision": "488b222674aa86d6625a",
@@ -20,11 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JobSearchAPP/static/js/2.04e520f6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e41a999914f428b204d3",
-    "url": "/JobSearchAPP/static/js/main.a7c6f5d0.chunk.js"
+    "revision": "7970531cb11a38705e1d",
+    "url": "/JobSearchAPP/static/js/main.9fe14658.chunk.js"
   },
   {
     "revision": "46a1a682a539f6210484",
     "url": "/JobSearchAPP/static/js/runtime-main.095906ee.js"
+  },
+  {
+    "revision": "d6685ae3843eadf33d86ba4ebd0d149f",
+    "url": "/JobSearchAPP/static/media/landingIcon.d6685ae3.jpg"
   }
 ]);
