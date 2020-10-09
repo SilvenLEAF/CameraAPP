@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/JobSearchAPP/static/css/main.d27f7f17.chunk.css",
-    "main.js": "/JobSearchAPP/static/js/main.98c4939d.chunk.js",
-    "main.js.map": "/JobSearchAPP/static/js/main.98c4939d.chunk.js.map",
+    "main.css": "/JobSearchAPP/static/css/main.3ebe220b.chunk.css",
+    "main.js": "/JobSearchAPP/static/js/main.93e9a999.chunk.js",
+    "main.js.map": "/JobSearchAPP/static/js/main.93e9a999.chunk.js.map",
     "runtime-main.js": "/JobSearchAPP/static/js/runtime-main.095906ee.js",
     "runtime-main.js.map": "/JobSearchAPP/static/js/runtime-main.095906ee.js.map",
     "static/css/2.9a9a1f6f.chunk.css": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.04e520f6.chunk.js": "/JobSearchAPP/static/js/2.04e520f6.chunk.js",
-    "static/js/2.04e520f6.chunk.js.map": "/JobSearchAPP/static/js/2.04e520f6.chunk.js.map",
+    "static/js/2.0beebd1d.chunk.js": "/JobSearchAPP/static/js/2.0beebd1d.chunk.js",
+    "static/js/2.0beebd1d.chunk.js.map": "/JobSearchAPP/static/js/2.0beebd1d.chunk.js.map",
     "index.html": "/JobSearchAPP/index.html",
-    "precache-manifest.030e544c730aabd0d855a637e5b9fff8.js": "/JobSearchAPP/precache-manifest.030e544c730aabd0d855a637e5b9fff8.js",
+    "precache-manifest.04a1dc5248f57945ceda94fe138631af.js": "/JobSearchAPP/precache-manifest.04a1dc5248f57945ceda94fe138631af.js",
     "service-worker.js": "/JobSearchAPP/service-worker.js",
     "static/css/2.9a9a1f6f.chunk.css.map": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css.map",
-    "static/css/main.d27f7f17.chunk.css.map": "/JobSearchAPP/static/css/main.d27f7f17.chunk.css.map",
-    "static/js/2.04e520f6.chunk.js.LICENSE.txt": "/JobSearchAPP/static/js/2.04e520f6.chunk.js.LICENSE.txt",
+    "static/css/main.3ebe220b.chunk.css.map": "/JobSearchAPP/static/css/main.3ebe220b.chunk.css.map",
+    "static/js/2.0beebd1d.chunk.js.LICENSE.txt": "/JobSearchAPP/static/js/2.0beebd1d.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/JobSearchAPP/static/media/landingIcon.d6685ae3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.095906ee.js",
     "static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.04e520f6.chunk.js",
-    "static/css/main.d27f7f17.chunk.css",
-    "static/js/main.98c4939d.chunk.js"
+    "static/js/2.0beebd1d.chunk.js",
+    "static/css/main.3ebe220b.chunk.css",
+    "static/js/main.93e9a999.chunk.js"
   ]
 }
