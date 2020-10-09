@@ -94,7 +94,7 @@ function Search() {
       
 
         <div className="input-field right-align">
-          <button type="submit" className="btn waves-effect waves-light" ><i className="fa fa-search"></i> Search</button>
+          <button type="submit" className="btn myBtn waves-effect waves-light" ><i className="fa fa-search"></i> Search</button>
         </div>
 
 
