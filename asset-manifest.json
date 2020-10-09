@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JobSearchAPP/static/css/main.3ebe220b.chunk.css",
+    "main.css": "/JobSearchAPP/static/css/main.f7de0674.chunk.css",
     "main.js": "/JobSearchAPP/static/js/main.24879ea9.chunk.js",
     "main.js.map": "/JobSearchAPP/static/js/main.24879ea9.chunk.js.map",
     "runtime-main.js": "/JobSearchAPP/static/js/runtime-main.095906ee.js",
@@ -9,10 +9,10 @@
     "static/js/2.0beebd1d.chunk.js": "/JobSearchAPP/static/js/2.0beebd1d.chunk.js",
     "static/js/2.0beebd1d.chunk.js.map": "/JobSearchAPP/static/js/2.0beebd1d.chunk.js.map",
     "index.html": "/JobSearchAPP/index.html",
-    "precache-manifest.61b16982dd092d1be17703c64acfc78b.js": "/JobSearchAPP/precache-manifest.61b16982dd092d1be17703c64acfc78b.js",
+    "precache-manifest.fc7ae297557d59c35886edb8026cf586.js": "/JobSearchAPP/precache-manifest.fc7ae297557d59c35886edb8026cf586.js",
     "service-worker.js": "/JobSearchAPP/service-worker.js",
     "static/css/2.9a9a1f6f.chunk.css.map": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css.map",
-    "static/css/main.3ebe220b.chunk.css.map": "/JobSearchAPP/static/css/main.3ebe220b.chunk.css.map",
+    "static/css/main.f7de0674.chunk.css.map": "/JobSearchAPP/static/css/main.f7de0674.chunk.css.map",
     "static/js/2.0beebd1d.chunk.js.LICENSE.txt": "/JobSearchAPP/static/js/2.0beebd1d.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/JobSearchAPP/static/media/landingIcon.d6685ae3.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.095906ee.js",
     "static/css/2.9a9a1f6f.chunk.css",
     "static/js/2.0beebd1d.chunk.js",
-    "static/css/main.3ebe220b.chunk.css",
+    "static/css/main.f7de0674.chunk.css",
     "static/js/main.24879ea9.chunk.js"
   ]
 }

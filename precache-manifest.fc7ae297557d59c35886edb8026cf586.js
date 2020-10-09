@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db10083b1031c59ae96a94a7fc9a9500",
+    "revision": "4a94a366d00a7d042fb80fba7513ceb8",
     "url": "/JobSearchAPP/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JobSearchAPP/static/css/2.9a9a1f6f.chunk.css"
   },
   {
-    "revision": "14773f2e8995313bb431",
-    "url": "/JobSearchAPP/static/css/main.3ebe220b.chunk.css"
+    "revision": "04cdb97b03774d7baa79",
+    "url": "/JobSearchAPP/static/css/main.f7de0674.chunk.css"
   },
   {
     "revision": "29019e4188281d944ffb",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JobSearchAPP/static/js/2.0beebd1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14773f2e8995313bb431",
+    "revision": "04cdb97b03774d7baa79",
     "url": "/JobSearchAPP/static/js/main.24879ea9.chunk.js"
   },
   {
