@@ -38,7 +38,7 @@ function SearchResultsDetails(props) {
       {/* <h2 className="pageTitle">Full Details</h2> */}
 
       <div className="right-align" >
-        <Link to="/searchResults" className="btn waves-effect waves-light" style={{marginTop: "30px"}} >
+        <Link to="/searchResults" className="btn myBtn waves-effect waves-light" style={{marginTop: "30px"}} >
             Go Back <i className="fa fa-arrow-left"></i>
         </Link>
       </div>

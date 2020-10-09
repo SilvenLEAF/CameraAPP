@@ -39,7 +39,7 @@ function SearchListItem({ index, time, title, type, company, location }) {
 
 
         <div className="myListItemButtonsHolder right-align">
-          <button className="btn waves-effect waves-light" style={{ marginTop: "10px" }} >
+          <button className="btn myBtn waves-effect waves-light" style={{ marginTop: "10px" }} >
             Full Details <i className="fa fa-eye"></i>
           </button>
         </div>
