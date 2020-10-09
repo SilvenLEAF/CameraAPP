@@ -81,7 +81,7 @@ function Search() {
         </div>
 
        
-          <div id="filterByFullTimeJobLabel" >Filter by Full Time Jobs</div>
+          <div id="filterByFullTimeJobLabel" >Filter by Full Time Jobs <span className="red-text">(optional)</span></div>
           <p>
             <label style={{ marginRight: "50px" }} >
               <input id="trueRadio" className="with-gap" name="fullTime" type="radio" onChange={ e=> setFullTime(true) } />
