@@ -14,7 +14,7 @@ import moment from 'moment'
 
 function SearchListItem({ index, time, title, type, company, location }) {
   return (
-    <Link to={ "/fullDetails/" + index }>
+
       <div className="container mySearchListItem" >
       
         
@@ -46,7 +46,7 @@ function SearchListItem({ index, time, title, type, company, location }) {
 
 
       </div>
-    </Link>
+
 
   )
 }

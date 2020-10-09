@@ -20,9 +20,10 @@ import BackToTopButton from './components/layouts/BackToTopButton'
 
 import Home from './components/home/Home'
 import Search from './components/search/Search';
+import SearchResultsDetails from './components/search/SearchResultsDetails';
 import SearchList from './components/search/SearchList';
-import FullDetailsPage from './components/details/FullDetailsPage';
 import AllJobs from './components/allJobs/AllJobs';
+import AllJobsDetails from './components/allJobs/AllJobsDetails';
 
 
 
@@ -45,9 +46,11 @@ function App() {
               <Route exact path="/" component={Home} />
               <Route path="/search" component={Search} />
               <Route path="/searchResults" component={SearchList} />
-              <Route path="/fullDetails/:index" component={FullDetailsPage} />
+              <Route path="/searchResultsDetails/:index" component={SearchResultsDetails} />
+              
               
               <Route path="/allJobs" component={AllJobs} />
+              <Route path="/allJobsDetails/:index" component={AllJobsDetails} />
             </Switch>
             
           </div>

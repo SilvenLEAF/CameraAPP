@@ -3,6 +3,7 @@ import '../../styles/Search.scss';
 
 
 import React, { useContext, useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import { SearchContext } from '../../contexts/SearchContext'
 
 
@@ -40,7 +41,11 @@ function SearchList() {
         
         {
           searchResults[0] && searchResults.map(((item, index)=>{
-            return <SearchListItem key={ index } index={ index } time={ item.created_at } title={ item.title } type={ item.type } company={ item.company } location={ item.location } />
+            return (
+              <Link to={ "/searchResultsDetails/" + index }>
+                <SearchListItem key={ index } index={ index } time={ item.created_at } title={ item.title } type={ item.type } company={ item.company } location={ item.location } />                
+              </Link>
+            )
           }))
         }
       </div>

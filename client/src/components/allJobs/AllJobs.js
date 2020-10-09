@@ -3,6 +3,7 @@ import '../../styles/Search.scss';
 
 
 import React, { useContext, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { usePaginatedQuery } from 'react-query'
 
 
@@ -62,7 +63,11 @@ function AllJobs() {
         }
         {
           resolvedData && resolvedData.map(((item, index)=>{
-            return <SearchListItem key={ index } index={ index } time={ item.created_at } title={ item.title } type={ item.type } company={ item.company } location={ item.location } />
+            return (
+              <Link to={ "/allJobsDetails/" + index }>
+                <SearchListItem key={ index } index={ index } time={ item.created_at } title={ item.title } type={ item.type } company={ item.company } location={ item.location } />
+              </Link>
+            )
           }))
         }
       </div>

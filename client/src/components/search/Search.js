@@ -82,12 +82,12 @@ function Search() {
           <p>
             <label style={{ marginRight: "50px" }} >
               <input id="trueRadio" className="with-gap" name="fullTime" type="radio" onChange={ e=> setFullTime(true) } />
-              <span>True</span>
+              <span>Yes, only Fulltime</span>
             </label>
           
             <label>
               <input id="falseRadio" className="with-gap" name="fullTime" type="radio" onChange={ e=> setFullTime(false) } />
-              <span>False</span>
+              <span>No, give me all</span>
             </label>
           </p>
           
