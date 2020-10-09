@@ -65,10 +65,13 @@ function Search() {
     <div className="container">
 
       <form className="myDefaultForm" onSubmit={ handleSubmit } >
-        <h2><i className="fa fa-search"></i> Search</h2>
+        <h2 className="myDefaultFormName" ><i className="fa fa-search"></i> Search</h2>
        
         <div className="input-field">
-          <input type="text" value={ description } onChange={ e => setDescription(e.target.value) } />
+          <input type="text" value={ description } onChange={ e => setDescription(e.target.value) } 
+            pattern="[a-zA-Z0-9\s]*" 
+            title="Can not use symbols here"
+          />
           <label htmlFor="description">Description <span className="red-text">(optional)</span> </label>
         </div>
 
