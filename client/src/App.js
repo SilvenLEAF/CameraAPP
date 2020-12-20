@@ -17,11 +17,15 @@ import MobileFooterNav from './components/layouts/MobileFooterNav'
 import BackToTopButton from './components/layouts/BackToTopButton'
 
 
-
+//Home Page
 import Home from './components/home/Home'
+
+//Search Page
 import Search from './components/search/Search';
 import SearchResultsDetails from './components/search/SearchResultsDetails';
 import SearchList from './components/search/SearchList';
+
+//All Jobs Page
 import AllJobs from './components/allJobs/AllJobs';
 import AllJobsDetails from './components/allJobs/AllJobsDetails';
 
